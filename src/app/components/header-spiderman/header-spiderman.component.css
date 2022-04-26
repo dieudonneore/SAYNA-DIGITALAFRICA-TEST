@@ -1,0 +1,29 @@
+.HeaderStyle{
+  width: 100%;
+  height: auto;
+  background-color: #B11313;
+}
+
+.container-fluid{
+  width: 70%;
+}
+
+.navbar-brand{
+  color: white;
+  font-weight: 600px;
+  font-size: 32px;
+  margin-left: 20px;
+}
+.nav-link{
+  color: white;
+  font-weight: 600px;
+  font-size: 12px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+#navbarText ul{
+  width: 30%;
+  position: absolute;
+  margin-left: 300px;
+}

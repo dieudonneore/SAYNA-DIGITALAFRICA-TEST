@@ -1,0 +1,232 @@
+.main{
+  width: 100%;
+  height: 1256px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.imageContent{
+  object-fit:contain;
+}
+.sipdermanTitle{
+  width: 33%;
+  height: auto;
+  position: absolute;
+  bottom: 340px;
+  margin-left: 425px;
+}
+.sipdermanTitle p {
+  font-family: fantasy;
+}
+.sipdermanButtonNav{
+  width: 27%;
+  height: auto;
+  margin-left: 10px;
+  display: inline;
+  flex-direction: row;
+}
+
+.heroBtn{
+  width: 150px;
+  height: auto;
+  background-color: white;
+  color: #B11313;
+  border: solid 1px white;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.adversaireBtn{
+  width: 170px;
+  height: auto;
+  background-color: #B11313;
+  color: white;
+  border: solid 1px white;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btnAdversaire{
+  width: 170px;
+  height: auto;
+  background-color: white;
+  color: #B11313;
+  border: solid 1px #B11313;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 12px;
+}
+.adversaireBtn, .heroBtn{
+  float: left;
+  margin-left: 10px;
+
+}
+
+.sipdermanTitle p{
+  font-style: italic;
+  color: white;
+  font-size: 150px;
+}
+
+.content{
+  background-color:#B11313;
+  width: 100%;
+  position: absolute;
+  top: 1550px;
+  height: 800px;
+  flex-direction: row;
+}
+
+.register{
+  background-color:#114C92;
+  width: 100%;
+  position: absolute;
+  top: 2350px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.newsletter{
+  background-color:#B11313;
+  width: 100%;
+  position: absolute;
+  top: 2904px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer{
+  background-color:black;
+  width: 100%;
+  position: absolute;
+  top: 3732px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+justify-content: space-between;
+color: white;
+cursor: pointer;
+}
+.imageSpider{
+  width: 40%;
+}
+
+.myForm{
+  width: 40%;
+  height: auto;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+.myFormNewsLetter{
+  margin-top: 80px;
+  margin-left: 150px;
+}
+.inputContent{
+  display:flex;
+  flex-direction: column;
+}
+.inputContentNewsLetter{
+  display:flex;
+  flex-direction: column;
+}
+.myInputs{
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px white;
+  border-radius: 20px;
+}
+.myInputsNewsLetter{
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px white;
+  border-radius: 20px;
+}
+.btnSend{
+  width: 200px;
+  height: auto;
+  background-color: #114C92;
+  color: white;
+  border: solid 1px white;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.btnSendNewsLetter{
+  width: 300px;
+  height: auto;
+  background-color: white;
+  color: #B11313;
+  border: solid 1px white;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+#checkboxLetter{
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.contentFirstTitle{
+  width: 65%;
+  height: auto;
+  color: white;
+  margin: auto;
+  font-size: xx-large;
+  font-family: fantasy;
+}
+.contentSecondTitle{
+  width: 550px;
+  height: auto;
+  color: white;
+  margin-left: 17%;
+}
+
+.cardContent{
+  width: 66%;
+  margin: auto;
+}
+
+#img2Style{
+  margin-left: 425px;
+}
+#img3Style{
+  margin-left: 343px
+}
+
+#contentTwo{
+  margin-left: 425px;
+}
+#contentThree{
+  margin-left: 343px
+}
+.cardContentInfo{
+  width: 66%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.info{
+  width: 18%;
+  height: 300px;
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-indent: 1px;
+  text-align: justify;
+}
+
